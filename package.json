@@ -1,7 +1,7 @@
 {
   "name": "@phudak/ckeditor5-build-inline-main",
   "version": "27.0.0",
-  "description": "Super build of inline CKEditor that contains my SimpleInlineEditor, BasicInlineEditor and FullInlineEditor.",
+  "description": "Super build of inline CKEditor5 that contains my SimpleInlineEditor, BasicInlineEditor and FullInlineEditor.",
   "keywords": [
     "ckeditor5-build",
     "ckeditor5 inline build",

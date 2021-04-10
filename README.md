@@ -1,5 +1,10 @@
 # CKEditor 5 Super Inline Build
 
+[![npm](https://img.shields.io/npm/v/@phudak/ckeditor5-build-inline-main)](https://www.npmjs.com/package/@phudak/ckeditor5-build-inline-main)
+[![npm](https://img.shields.io/npm/dw/@phudak/ckeditor5-build-inline-main)](https://www.npmjs.com/package/@phudak/ckeditor5-build-inline-main)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/@phudak/ckeditor5-build-inline-main)](https://www.npmjs.com/package/@phudak/ckeditor5-build-inline-main)
+[![NPM](https://img.shields.io/npm/l/@phudak/ckeditor5-build-inline-main)](https://www.npmjs.com/package/@phudak/ckeditor5-build-inline-main)
+
 CKEditor 5 Super build with callable editors:
 - My [Simple Inline Build](https://www.npmjs.com/package/@phudak/ckeditor5-build-inline-simple)
 - My [Basic Inline Build](https://www.npmjs.com/package/@phudak/ckeditor5-build-inline-basic)
