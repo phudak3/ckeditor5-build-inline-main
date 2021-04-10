@@ -1,0 +1,80 @@
+{
+  "name": "@phudak/ckeditor5-build-inline-main",
+  "version": "27.0.0",
+  "description": "Super build of inline CKEditor that contains my SimpleInlineEditor, BasicInlineEditor and FullInlineEditor.",
+  "keywords": [
+    "ckeditor5-build",
+    "ckeditor5 inline build",
+    "ckeditor5 super free build",
+    "ckeditor5 super build",
+    "ckeditor",
+    "ckeditor5",
+    "ckeditor 5",
+    "ckeditor 5 full free",
+    "ckeditor 5 free",
+    "wysiwyg",
+    "description editor",
+    "rich text",
+    "basic editor"
+  ],
+  "main": "./build/ckeditor.js",
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "@ckeditor/ckeditor5-alignment": "^27.0.0",
+    "@ckeditor/ckeditor5-autoformat": "^27.0.0",
+    "@ckeditor/ckeditor5-basic-styles": "^27.0.0",
+    "@ckeditor/ckeditor5-block-quote": "^27.0.0",
+    "@ckeditor/ckeditor5-editor-inline": "^27.0.0",
+    "@ckeditor/ckeditor5-essentials": "^27.0.0",
+    "@ckeditor/ckeditor5-font": "^27.0.0",
+    "@ckeditor/ckeditor5-heading": "^27.0.0",
+    "@ckeditor/ckeditor5-horizontal-line": "^27.0.0",
+    "@ckeditor/ckeditor5-html-embed": "^27.0.0",
+    "@ckeditor/ckeditor5-image": "^27.0.0",
+    "@ckeditor/ckeditor5-indent": "^27.0.0",
+    "@ckeditor/ckeditor5-link": "^27.0.0",
+    "@ckeditor/ckeditor5-list": "^27.0.0",
+    "@ckeditor/ckeditor5-media-embed": "^27.0.0",
+    "@ckeditor/ckeditor5-mention": "^27.0.0",
+    "@ckeditor/ckeditor5-paragraph": "^27.0.0",
+    "@ckeditor/ckeditor5-paste-from-office": "^27.0.0",
+    "@ckeditor/ckeditor5-remove-format": "^27.0.0",
+    "@ckeditor/ckeditor5-special-characters": "^27.0.0",
+    "@ckeditor/ckeditor5-table": "^27.0.0",
+    "@ckeditor/ckeditor5-typing": "^27.0.0",
+    "@ckeditor/ckeditor5-upload": "^27.0.0",
+    "@ckeditor/ckeditor5-word-count": "^27.0.0",
+    "@phudak/ckeditor5-emoji": "^1.0.1",
+    "dompurify": "^2.2.7",
+    "install": "^0.13.0",
+    "npm": "^7.8.0"
+  },
+  "devDependencies": {
+    "@ckeditor/ckeditor5-core": "^27.0.0",
+    "@ckeditor/ckeditor5-dev-utils": "^24.0.0",
+    "@ckeditor/ckeditor5-dev-webpack-plugin": "^24.0.0",
+    "@ckeditor/ckeditor5-theme-lark": "^27.0.0",
+    "postcss-loader": "^3.0.0",
+    "raw-loader": "^4.0.1",
+    "style-loader": "^1.2.1",
+    "terser-webpack-plugin": "^3.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=5.7.1"
+  },
+  "author": "CKSource (http://cksource.com/)",
+  "license": "GPL-2.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phudak3/ckeditor5-build-inline-main.git"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "preversion": "npm run build"
+  }
+}

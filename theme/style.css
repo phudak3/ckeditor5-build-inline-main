@@ -1,0 +1,29 @@
+.ck-content .image {
+    width: 100%;
+}
+
+.ck-content .image.image-style-align-left {
+    margin: 0 1rem 1rem 0;
+}
+
+.ck-content .image.image-style-align-right {
+    margin: 0 0 1rem 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .ck-content .image {
+        width: 100% !important;
+    }
+}
+
+.ck-content .table {
+    width: 100%;
+}
+
+.ck-table-form .ck-color-grid {
+    grid-template-columns: repeat(10, 1fr) !important;
+}
+
+.ck-fontsize-option .ck-button__label {
+    font-size: 1.2em !important;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CKEditor 5 – full inline editor build – development sample</title>
+	<style>
+		body {
+			max-width: 800px;
+			margin: 20px auto;
+		}
+	</style>
+</head>
+<body>
+
+<h1>CKEditor 5 – Super Inline Build</h1>
+
+<div id="editor-simple">
+	<p>This is simple editor build ...</p>
+</div>
+
+<div id="editor-base">
+	<p>This is base editor build ...</p>
+</div>
+
+<div id="editor-full">
+	<h2>This is full editor build </h2>
+
+	<p>This is an instance of the <a href="https://ckeditor.com/docs/ckeditor5/latest/builds/guides/overview.html#inline-editor">inline editor build</a>.</p>
+
+	<figure class="image">
+		<img src="../tests/manual/sample.jpg" alt="Autumn fields" />
+	</figure>
+
+</div>
+
+<script src="../build/ckeditor.js"></script>
+<script>
+	EditorBase.SimpleInlineEditor.create( document.querySelector( '#editor-simple' ) )
+		.then( editor => {
+			window.editor = editor;
+		} )
+		.catch( error => {
+			console.error( 'There was a problem initializing simple editor.', error );
+		} );
+
+	EditorBase.BasicInlineEditor.create( document.querySelector( '#editor-base' ) )
+		.then( editor => {
+			window.editor = editor;
+		} )
+		.catch( error => {
+			console.error( 'There was a problem initializing basic editor.', error );
+		} );
+
+	EditorBase.FullInlineEditor.create( document.querySelector( '#editor-full' ) )
+		.then( editor => {
+			window.editor = editor;
+		} )
+		.catch( error => {
+			console.error( 'There was a problem initializing full editor.', error );
+		} );
+</script>
+
+</body>
+</html>
